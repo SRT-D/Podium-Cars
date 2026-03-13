@@ -9,6 +9,6 @@ namespace Podiumcars
         public string Marca { get; set; }
         public string Modelo { get; set; }
 
-        void MostrarDetalles();
+        void MostrarDetalles();       
     }
 }

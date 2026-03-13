@@ -5,16 +5,20 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Podiumcarsñ
+namespace Podiumcars;
 
-    public class VehiculoImportacion : Vehiculo
+public class VehiculoImportacion : Vehiculo
 {
-    public DateTime FechaLlegada { get; set; }
+    public DateTime FechaActual { get; set; }
 
     public override void MostrarDetalles()
     {
-        Console.WriteLine($"[Importación] {Marca} {Modelo}");
-        Console.WriteLine($" > Fecha estimada de llegada: {FechaLlegada.ToShortDateString()}");
+        Console.WriteLine("Importacion:" + Marca + " " + Modelo);
+        Console.WriteLine("Fecha estimada de llegada: " +  FechaActual.ToShortDateString());
+        
     }
+
 }
 
+
+    
