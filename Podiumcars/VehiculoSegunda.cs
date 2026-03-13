@@ -18,8 +18,8 @@ public class VehiculoSegunda : Vehiculo
 
     public override void MostrarDetalles()
     {
-        Console.WriteLine($"Marca {Marca} {Modelo} | Año: {Año} | KM: {Kilometraje}");
-        Console.WriteLine($" > Mods Internas: {(Extras.Internas ? "Sí (Rendimiento)" : "No")}");
-        Console.WriteLine($" > Mods Externas: {(Extras.Externas ? "Sí" : "No")}");
+        Console.WriteLine("Marca: " + Marca +" " + Modelo +"|" + " Año:" + Año + "|" + " KM:" + Kilometraje);
+        Console.WriteLine("Mods Internas:" + (Extras.Internas ? "Sí" : "No"));
+        Console.WriteLine("Mods Externas:" + (Extras.Externas ? "Sí" : "No"));
     }
 }
