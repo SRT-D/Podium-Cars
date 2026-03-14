@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Persistencia.CargarTodo();
             string menu = "||------PODIUM CARS ------||" + "\n" + "1. Gestionar Usuario" + "\n" + "2. Gestionar Vehiculos de Segunda" + "\n" +
                   "3. Gestionar Vehiculos importacion" + "\n";
 
@@ -36,7 +37,7 @@
 
                     default:
                         Console.WriteLine("Opcion invalida.");
-                        Console.ReadKey();
+                        Persistencia.GuardarTodo();
                         break;
                 }
 
