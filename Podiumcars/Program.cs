@@ -36,6 +36,7 @@
 
                     default:
                         Console.WriteLine("Opcion invalida.");
+                        Console.ReadKey();
                         break;
                 }
 
