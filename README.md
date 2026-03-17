@@ -32,4 +32,7 @@
 
 El objetivo principal de **Podium Cars** es optimizar la organización interna de un concesionario, mejorar el seguimiento del inventario de vehículos y proporcionar una herramienta sencilla para gestionar las operaciones diarias del negocio.
 
+**Aclaracion Sobre Commits:** Solamente Se veran los commits de un usuario ya que se decidio desarrollar el proyecto desde un pc devido a inconvenientes a la hora de  subir los commits de otro usuario, ya que no editar directamente el proyecto y no se generaban, mas sin embargo se intentara arreglar para el siguiente entrega.
 
+**Diagrama UML:** https://app.diagrams.net/#G1Mcf-80UzFTi2l0upIGI9XXcf90nA-vYB#%7B%22pageId%22%3A%22U7WeKSpbIUYBzJxehtit%22%7D 
+En caso de que archivo no habra puede contarse con alguno de los dos estudiantes.
